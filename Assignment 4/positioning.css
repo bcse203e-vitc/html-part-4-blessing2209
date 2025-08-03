@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    padding: 50px;
+    height: 2000px;
+  }
+  
+  .static-box {
+    background-color: #a5d6a7;
+    padding: 20px;
+    margin-bottom: 20px;
+    position: static;
+  }
+  
+  .fixed-box {
+    background-color: #ef9a9a;
+    padding: 15px;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 100;
+  }
+  
+  .relative-wrapper {
+    position: relative;
+    background-color: #e1f5fe;
+    height: 200px;
+    margin-top: 100px;
+  }
+  
+  .relative-box {
+    background-color: #ce93d8;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    padding: 15px;
+    width: 150px;
+  }
+  
+  .absolute-box {
+    background-color: #ffcc80;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    padding: 15px;
+    width: 150px;
+  }
+  
